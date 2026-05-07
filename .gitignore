@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Model weights (too large for GitHub — use Git LFS or cloud storage instead)
+models/
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# Hugging Face dataset cache
+data/
+*.arrow
+*.cache
+~/.cache/huggingface/
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+runs/
